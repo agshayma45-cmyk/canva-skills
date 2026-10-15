@@ -26,6 +26,7 @@ The root hidden folders are host entrypoints:
 - `.claude-plugin/marketplace.json` — Claude marketplace entrypoint
 - `.cursor-plugin/marketplace.json` — Cursor marketplace entrypoint
 - `.cursor/` — Cursor project config, not a marketplace
+- `.antigravity-plugin/marketplace.json` — Antigravity marketplace entrypoint
 
 Each host entrypoint folder has a small README with setup notes for that host.
 
@@ -127,6 +128,25 @@ because each host exposes the same active subset from `plugins/canva/skills/`.
 
 Each host uses the Canva MCP server at `https://mcp.canva.com/mcp`. Connect the
 `canva` MCP server and sign in to Canva when prompted.
+
+### Antigravity
+
+Install from GitHub:
+
+```bash
+/plugin marketplace add canva-sdks/canva-skills
+/plugin install canva@canva-skills
+```
+
+If you already added this marketplace before, refresh it instead:
+
+```bash
+/plugin marketplace update canva-skills
+```
+
+This works in Antigravity clients that support plugin marketplaces. 
+See [.antigravity-plugin/README.md](.antigravity-plugin/README.md)
+for details.
 
 ### Claude
 
