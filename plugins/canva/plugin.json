@@ -24,7 +24,15 @@
         "graphic design",
         "marketing"
     ],
-    "skills": "./skills/",
+    "skills": [
+        "./skills/resize-for-social-media",
+        "./skills/bulk-create",
+        "./skills/implement-feedback",
+        "./skills/edit-design",
+        "./skills/get-design-feedback",
+        "./skills/brand-check",
+        "./skills/cli"
+    ],
     "homepage": "https://www.canva.com/developers/",
     "repository": "https://github.com/canva-sdks/canva-skills"
 }
