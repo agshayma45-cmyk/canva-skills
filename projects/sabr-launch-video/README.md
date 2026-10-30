@@ -86,3 +86,10 @@
 ### وصف الصورة الأساسية للمشهد الأول
 
 > Cinematic macro shot, thin translucent ivory paper sheets gently lifting in a soft breeze, warm golden light leaking through the gaps between pages, shallow depth of field, airy and delicate, hint of a vast deep-navy world with antique gold details glimpsed beyond the paper, photorealistic, 35mm film look, no people, no text, no magical effects
+
+---
+
+## ملفات المشروع
+
+- [`shot-list.md`](shot-list.md): قائمة اللقطات، مع وصف كل إطار وحركة كل مقطع والنماذج المقترحة.
+- [`sabr-build.jsx`](sabr-build.jsx): سكربت After Effects يبني الفيديو الرئيسي والنسخة التشويقية، ويضيف النص العربي والشعار.
