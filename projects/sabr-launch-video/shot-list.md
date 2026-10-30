@@ -6,7 +6,18 @@
 2. نحوّل الإطارين لفيديو بنموذج يدعم إطار البداية والنهاية، فتصير الانتقالات محسوبة ومو عشوائية.
 3. النصوص العربية والشعار تنضاف في After Effects بسكربت `sabr-build.jsx`، وما تنولّد بالذكاء الاصطناعي.
 
-ألوان سَبْر في كل الأوصاف: عاجي دافئ، كحلي عميق، ذهبي معتّق.
+هوية سَبْر (مأخوذة من تصاميم سَبْر على Canva: بطاقة العمل، وقوالب البوستات، وصفحة «تواصل معنا»):
+
+| العنصر | القيمة |
+|---|---|
+| كحلي عميق | `#0A2540` |
+| عاجي (ورق) | `#FAF4E7` / `#F6F1E8` |
+| ذهبي معتّق | `#C49F58` |
+| أزرق مائي فاتح | `#CCDFEB` |
+
+القيم مأخوذة من صور مصغّرة للتصاميم، فهي تقريبية. لو عندك القيم الرسمية من دليل الهوية، استبدلها.
+
+العناصر البصرية المتكررة في الهوية، ونستخدمها في اللقطات: ورق عاجي مصنوع يدويًا بملمس واضح، لطخة ألوان مائية زرقاء فاتحة تذوب في طرف الورق، ريشة كحلية مائية بحافة ذهبية رفيعة، خطوط ذهبية رفيعة مع معيّن صغير في المنتصف، نجوم ذهبية رباعية صغيرة، أوراق نباتية مائية، وكتاب مفتوح.
 ممنوع في كل اللقطات: أشخاص، نصوص أو حروف، شعارات، مؤثرات سحرية، جزيئات متوهجة.
 
 أسماء الملفات تحت هي اللي يتوقعها سكربت After Effects داخل مجلد `~/Sabr/clips/`.
@@ -19,12 +30,12 @@
 
 **الإطار الأول `s1-start.png`**
 ```
-Extreme macro cinematic photograph of several ultra-thin translucent ivory paper sheets stacked loosely, edges gently curling, warm golden backlight glowing through the paper fibers, visible fine paper texture, soft atmospheric haze, shallow depth of field, a narrow dark gap between two sheets in the center of the frame, airy and delicate, palette of warm ivory, deep navy shadows and antique gold highlights, shot on ARRI Alexa with a 50mm macro lens, photorealistic, no text, no letters, no people, no logos
+Extreme macro cinematic photograph of several ultra-thin translucent warm ivory handmade paper sheets with soft deckled edges, a pale blue watercolor wash gently bleeding into the paper fibers along one edge, warm golden backlight glowing through the fibers, soft atmospheric haze, shallow depth of field, a narrow dark gap between two sheets in the center of the frame, airy and delicate, palette of warm ivory, pale watercolor blue, deep navy shadows and antique gold highlights, shot on ARRI Alexa with a 50mm macro lens, photorealistic, no text, no letters, no people, no logos
 ```
 
 **الإطار الأخير `s1-end.png`**
 ```
-Cinematic wide shot from inside a vast quiet world made of paper: towering layered cliffs of stacked ivory pages receding into deep navy distance, warm antique-gold light rays falling between the layers, fine paper fibers floating like dust in the light, immense depth and scale, a feeling of discovery, realistic materials and lighting, photorealistic, shot on ARRI Alexa with an anamorphic lens, no text, no letters, no people, no creatures, no glowing magic particles
+Cinematic wide shot from inside a vast quiet world made of paper: towering layered cliffs of stacked ivory handmade pages receding into deep navy distance, soft drifts of deep navy and pale blue watercolor pigment diffusing through the air between the layers like mist, warm antique-gold light rays falling between the pages, a few tiny gold glints, immense depth and scale, a feeling of discovery, realistic materials and lighting, photorealistic, shot on ARRI Alexa with an anamorphic lens, no text, no letters, no people, no creatures, no glowing magic particles
 ```
 
 **حركة الفيديو** (إطار أول ← إطار أخير)
@@ -40,7 +51,7 @@ The paper edges flutter gently in a soft breeze, then the camera slowly pushes f
 
 **الإطار الأول `s2-start.png`**
 ```
-Cinematic close-up of a large sheet of warm ivory handmade paper resting in soft darkness, gentle antique-gold light raking across its surface revealing fine fibers, deep navy vignette around the edges, generous empty space in the center for typography, calm and elegant, photorealistic, no text, no letters, no people
+Cinematic close-up of a large sheet of warm ivory handmade paper with visible fibers, a soft pale blue watercolor wash fading in from the left edge, a single thin antique-gold line crossing near the bottom, gentle golden light raking across the surface, deep navy vignette around the edges, generous empty space in the center for typography, calm and elegant, photorealistic, no text, no letters, no people
 ```
 
 **حركة الفيديو** (من صورة واحدة)
@@ -79,17 +90,17 @@ Fine gold ink lines draw themselves in, then the drawing gradually transforms in
 
 **الإطار الأول `s4-start.png`**
 ```
-Macro cinematic shot of antique-gold ink flowing slowly across warm ivory paper and forming elegant abstract calligraphic strokes, with subtle realistic details of a fountain pen nib, folded manuscript pages and an edited proof sheet with fine margin marks, deep navy background, shallow depth of field, photorealistic, abstract strokes only, no readable text, no letters, no people
+Macro cinematic shot of a real quill feather dyed deep navy blue with a fine gold edge resting on warm ivory handmade paper, its tip leaving slow flowing antique-gold ink strokes that form elegant abstract calligraphic curves, the soft edge of an open book and a few pale blue watercolor leaves in the background, shallow depth of field, photorealistic, abstract strokes only, no readable text, no letters, no people
 ```
 
 **الإطار الأخير `s4-end.png`**
 ```
-Calm deep navy background with a soft warm antique-gold glow in the center, a few elegant gold ink strokes and the edge of an ivory paper sheet framing the edges of the frame, wide clean empty space in the center for a logo, minimal and premium, photorealistic, no text, no letters, no logos, no people
+Calm deep navy background with soft deep blue watercolor texture, a warm antique-gold glow in the center, thin antique-gold lines with a small diamond ornament at the far edges of the frame, a navy feather with a gold edge and the corner of an ivory paper sheet just entering the frame edges, wide clean empty space in the center for a logo, minimal and premium, photorealistic, no text, no letters, no logos, no people
 ```
 
 **حركة الفيديو** (إطار أول ← إطار أخير)
 ```
-The gold ink strokes and paper elements slowly converge and settle toward the edges of the frame while the camera gently pulls back, leaving the center clear in calm deep navy space. One continuous move, no cuts.
+The quill lifts gently as the gold ink strokes settle, then the feather, paper and ink drift toward the edges of the frame while the camera slowly pulls back and the light shifts into calm deep navy, leaving the center clear. One continuous move, no cuts.
 ```
 
 ---

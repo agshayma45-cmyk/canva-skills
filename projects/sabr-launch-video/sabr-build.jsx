@@ -15,10 +15,10 @@
         fps: 30,
         phrase: "معرفةً تستحق أن تُكتشف",
         tagline: "ما وراء الكلمة  |  Beyond the Word",
-        // Replace with the exact brand values if you have them.
-        ivory: [0.949, 0.922, 0.859], // #F2EBDB
-        navy: [0.059, 0.118, 0.227],  // #0F1E3A
-        gold: [0.690, 0.553, 0.341]   // #B08D57
+        // Sampled from the Sabr Canva designs; replace with the official values if they differ.
+        ivory: [0.965, 0.945, 0.910], // #F6F1E8
+        navy: [0.039, 0.145, 0.251],  // #0A2540
+        gold: [0.769, 0.624, 0.345]   // #C49F58
     };
 
     var missing = [];
